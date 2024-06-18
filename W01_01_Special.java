@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class W01_01_Example {
+public class W01_01_Special {
     public static void main(String[] args) {
         int point = 0;
         Scanner type = new Scanner(System.in);
