@@ -1,6 +1,6 @@
 package W10;
 
-public class W10_PrePostOperator {
+public class W10_01_PrePostOperator {
     public static void main(String[] args) 
     {
         int a = 5;

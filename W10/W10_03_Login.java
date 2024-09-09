@@ -43,6 +43,8 @@ public class W10_03_Login {
             }
         } finally {
             System.out.println("\n\u001B[35mGOOD BYE :)\u001B[30m\n");
+            kb.close();
         }
+        
     }
 }

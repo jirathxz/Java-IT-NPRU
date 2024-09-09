@@ -42,6 +42,6 @@ public class W10_04_TitleStatus {
         } else {
             System.out.println("Your single");
         }
-        
+        kb.close();
     }
 }

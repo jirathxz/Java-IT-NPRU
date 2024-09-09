@@ -110,5 +110,6 @@ public class W11_01_ExLoopFor {
                 System.out.printf("%d Odd %n", i);
             }
         }
+        kb.close();
     }
 }

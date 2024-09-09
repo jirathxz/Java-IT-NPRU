@@ -17,5 +17,6 @@ public class W12_03_DoWhile {
 
         char grade = (score >= 80) ? 'A' : (score >= 70) ? 'B' : (score >= 60) ? 'C' : (score >= 50) ? 'D' : 'E';
         System.out.println(grade);
+        kb.close();
     }
 }

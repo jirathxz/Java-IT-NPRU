@@ -27,5 +27,7 @@ public class  W10_02_Bmi {
         } else {
             System.out.printf("You Height is Obese (%f BMI)", bmi);
         }
+
+        kb.close();
     }
 }
