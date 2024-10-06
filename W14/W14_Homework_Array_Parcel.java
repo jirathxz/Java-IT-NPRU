@@ -1,4 +1,3 @@
-
 /**
  * W14_Homework_Array_Parcel
  */
@@ -36,6 +35,9 @@ public class W14_Homework_Array_Parcel {
                 countEN++;
             }
         }
+
+        // เช็คจำนวน
+        System.out.println("\nAll TH Parcel: " + countTH);
 
         // 4. แสดงชื่อทุกคน
         System.out.println("\n- ALL PARCEL");
