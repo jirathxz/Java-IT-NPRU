@@ -47,11 +47,9 @@ public class W15_04_Method_FindMaxMin {
         return res;
     }
     // 5) Method สำหรับแสดงค่าใน array ทั้งหมด
-    static int GetArray(int arr[]) {
-        int res = arr[0];
+    static void GetArray(int arr[]) {
         for (int i = 0; i < arr.length; i++)
             System.out.print(arr[i] + ", ");
-        return res;
     }
     public static void main(String[] args) {
 
@@ -60,6 +58,6 @@ public class W15_04_Method_FindMaxMin {
         System.out.println("ค่าที่น้อยที่สุด: " + GetMin(68, 1002)); 
         System.out.println(GetMaxThree(5, 10, 1));
         System.out.println("ค่า Array ที่น้อยที่สุด: " + GetMinArray(num)); 
-        System.out.println(GetArray(num)); 
+        GetArray(num);
     }
 }
