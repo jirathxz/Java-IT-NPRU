@@ -12,20 +12,12 @@ public class W15_Homework_Factorial {
 
     static void GetFactorial(int num)
     {
-        int time = 0;
         int res = 1;
         BorderLine();
         for(int i = 1; i <= num; i++)
         {
-            res = res*i;
-            
-            time++;
-            if(time >= num)
-            {
-                System.out.printf("%d = %d", i, res);
-            } else {
-                System.out.printf("%d x ", i);
-            }
+            res *= i;
+            System.out.printf((i >= num) ? "%d = %d\n" : "%d x ", i, res);
         }
         System.out.printf("%n> Factorial of %d is %d", num, res);
         BorderLine();
